@@ -1,0 +1,118 @@
+body{
+
+	background-image: url("../images/memphis-colorful.png");
+	background-repeat: repeat;
+	background-color: white;
+}
+
+.diffBack{
+	background-color: white;
+}
+
+div#intro.col-xs-12 {
+	background-color: #4aaaa5;	
+}
+
+div#intro.col-xs-12 a.changeText{
+	color: #ffffff;	
+	text-align: center;
+	font-size: 36px;
+	font-weight: bold;
+	font-family: 'Georgia', Times, Times New Roman, serif;	
+	margin-left: 227px;
+
+}
+
+div.collapse.navbar-collapse ul{
+	margin-right: 234px;
+
+}
+
+
+
+.headline-1{
+	font-family:'Georgia', Times, Times New Roman, serif; 
+	color: #4aaaa5;
+	font-size: 40px;
+	font-weight: bold;
+	border-bottom: 5px solid #dddddd;
+	margin-bottom: 30px;
+	padding-bottom: 45px;
+	padding-top: 37px;
+} 
+
+.centerText{
+	margin-left: 10%;
+}
+
+.bio-text{
+	padding: 6% 0px;
+}
+
+figure{
+	display: inline;
+}
+
+.headline-2{
+	font-family:'Georgia', Times, Times New Roman, serif; 
+	color: #4aaaa5;
+	font-size: 23px;
+	font-weight: bold;
+	border-bottom: 5px solid #dddddd;
+	margin-bottom: 30px;
+	text-align: left;
+
+}
+
+
+
+/*----------------------------------------------------------------*/
+@media screen and (max-width: 980px){
+
+	.sidebar{
+		width: 90%;
+		/*float: left;*/
+
+
+	}
+
+	.mainContent{
+		width: 90%;
+		/*float: left;*/
+	}
+
+	/*Add CSS Styles to change layout of navbar, 
+	position of sidebar here*/
+}
+
+/*----------------------------------------------------------------*/
+
+@media screen and (max-width: 768px){
+
+	/*Add CSS Styles to change layout of navbar, 
+	position of sidebar here*/
+
+}
+
+
+/*----------------------------------------------------------------*/
+
+@media screen and (max-width: 640px){
+
+	div#intro.col-xs-12 a.changeText{
+		color: #ffffff;	
+		text-align: center;
+		font-size: 36px;
+		font-weight: bold;
+		font-family: 'Georgia', Times, Times New Roman, serif;	
+		margin-left: 227px;
+
+	}
+
+
+
+
+
+}
+
+
